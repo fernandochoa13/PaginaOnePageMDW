@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 100vh; /*100% del área de visualización */
+    background-image: linear-gradient(to top, rgb(255, 241, 235) 0%, rgb(172, 224, 249) 100%);   
+
+
+}
+
+.cabezera{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;    
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+
+.titulo {
+    font-size: 60px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    
+}
+
+.parrafo{
+    font-weight: 300px;
+    font-size: 20px;
+
+}
+
+.Stitulo{
+    text-align: center;
+    font-weight: 200px; /*Extra-light fuente*/
+    color: rgb(76, 149, 179);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.contenedor-Aspectos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+
+}
+
+.contenedor-Aspectos img{
+    max-width: 50%;
+    border-radius: 5%;
+
+}
+
+.Aspectos-Texto{
+    width:40%;
+}
+
+.Caracteristica{
+    margin-top: 10px;
+
+}
+
+
+.Caracteristica h3{
+    font-size: 25px;
+
+}
+
+.numero{
+    display: inline-block;
+    background-image: linear-gradient(to top,  rgb(255, 241, 235) 0%, rgb(172, 224, 249) 100%);
+    width: 30px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 80%;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: 5px;
+}
+
+.seccion3-contenedor{
+    background-image: linear-gradient(to top, rgb(255, 241, 235) 0%, rgb(172, 224, 249) 100%);  
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.seccion3-contenedor h2{
+    color: #fff;
+}
+
+.Contenedor-Punto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-parrafo{
+    margin-top: 10px;
+    color: #fff;
+}
+
+.contenedor-seccion3 img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 5%;
+
+}
+
+.galeria{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imagenTitulo{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.img-gallery{
+    padding-top: 20px;
+    display: inline;
+    object-fit: cover;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5%;
+
+}
+
+.Titulo-imagen{
+    text-align: center;
+    color:rgb(1, 175, 161);
+    margin-top: 5px;
+    width: 100%;
+    font-weight: 300px;
+    display: inline-block;
+}
+
+.contenedor-conclusion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contenedor-conclusion p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-image: linear-gradient(to top, rgb(255, 241, 235) 0%, rgb(172, 224, 249) 100%);
+    padding-bottom: 0.1px;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.contactanos{
+    width: 40%;
+    color: #fff;
+    margin-left: 90px;
+}
+
+
+
+.marca{
+    font-weight: 500px;
+    font-size: 30px;
+}
+
+.redesSociales{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+
+.icono-social-media{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.icono-social-media:hover{
+    background: #fff;
+    color: #001235;
+}
+
+.icono-social-media i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.flecha{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(240, 223, 191);
+    line-height: 60px;
+    z-index: 10;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+}
+
+.redes-sociales{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;  
+    text-align: center;
+    background-color: rgb(240, 223, 191);
+    line-height: 60px; 
+    z-index: 10;
+    position: fixed;
+    left: 10px;
+    bottom: 30px;
+}
+
+
